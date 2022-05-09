@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  color: #2f2f2f;
+  font-family: "Arial MT";
+}
+
+.box .container {
+  max-width: 63.125rem;
+  width: 100%;
+  height: 31.4375rem;
+  background-color: #ffffff;
+  border: 1px solid #d7d7d7;
+  margin: auto;
+  margin-top: 86px;
+}
+
+.box .container .box__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .container .box__row .box__img {
+  margin: 64px 100px 64px 48px;
+}
+
+.box .container .box__row .box__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box .container .box__row .box__body .box__title {
+  margin-top: 94px;
+  font-size: 23px;
+  font-family: "Arial - Bold MT";
+}
+
+.box .container .box__row .box__body .box__text {
+  margin-top: 30px;
+}
+
+.box .container .box__row .box__body .box__price {
+  font-size: 30px;
+  margin-top: 55px;
+}
+
+.box .container .box__row .box__body .box__value {
+  margin-top: 23px;
+}
+
+.box .container .box__row .box__body button {
+  font-size: 19px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #ec744a;
+  border: none;
+  display: inline-block;
+  width: 252px;
+  height: 50px;
+  padding: 16px 39px;
+  margin-top: 56px;
+}
