@@ -1,0 +1,21 @@
+.footer {
+   .footer__title {
+      padding: 89px 0 68px 0;
+      text-align: center;
+      font-size: 1.875rem;
+      font-weight: 700;
+   }
+
+   .footer__row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 111px;
+      img {
+         height: 261px;
+         width: 261px;
+         margin-bottom: 40px;
+      }
+   }
+}

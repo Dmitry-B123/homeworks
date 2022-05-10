@@ -1,0 +1,22 @@
+*, *::after, *::before {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Tahoma;
+   font-size: 1.125rem;
+   color: #000000;
+}
+
+.container {
+   width: 100%;
+   max-width: 71.25rem;
+   margin: 0 auto;
+}
+
+@import "_header";
+@import "_buy";
+@import "_footer";
+
+
+

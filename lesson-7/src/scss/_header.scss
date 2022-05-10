@@ -1,0 +1,56 @@
+.header {
+   .header__row {
+      display: flex;
+
+      .header__img {
+         padding: 77px 75px 98px 0;
+      }
+
+      .header__content {
+         padding-top: 137px;
+         .header__title{
+            font-size: 3rem;
+            font-weight: 700;
+         }
+
+         .heder__subtitle {
+            font-size: 1.875rem;
+         }
+
+         .header__text {
+            margin-top: 35px;
+         }
+
+         .header__price {
+            font-size: 3rem;
+            margin-top: 47px;
+         }
+
+         .header__buy {
+            margin-right: 40px;
+         }
+
+         .heder__info {
+
+         }
+
+         .button {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 75px;
+            padding: 22px 42px;
+            border: 2px solid #f05a22;
+            background: #fff;
+            &:focus {
+               background-color: #f05a22;
+               color: #fff;
+            }
+
+            &:hover {
+               background-color: #f05a22;
+               color: #fff;
+            }
+         }
+      }
+   }
+}
