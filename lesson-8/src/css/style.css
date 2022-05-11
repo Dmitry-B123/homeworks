@@ -1,0 +1,244 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  color: #32325f;
+}
+
+.container {
+  width: 100%;
+  max-width: 71.25rem;
+  margin: 0 auto;
+}
+
+.hero {
+  padding-top: 74px;
+  padding-bottom: 194px;
+  background: #f4f5f7;
+}
+
+.hero .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.hero .navbar .brand {
+  color: #95989a;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero .navbar .social a {
+  margin-right: 20px;
+}
+
+.hero .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .main .main__text .subtitle {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.hero .main .main__text .title {
+  font-weight: 700;
+  font-size: 48px;
+  display: block;
+  margin-bottom: 27px;
+}
+
+.hero .main .main__text .desc {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.hero .main .main__text .price-tag {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.hero .main .main__text .price {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.hero .main .main__text .buttons {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero .main .main__text .buttons .btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 21px 31px;
+}
+
+.hero .main .main__text .buttons .btn-success {
+  background: #2dce89;
+  margin-right: 20px;
+}
+
+.hero .main .main__text .buttons .btn-primary {
+  background: #5e72e4;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section .section-heading .section-subtitle {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.section .section-heading .section-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.section .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 225px;
+}
+
+.section .wrap .block {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 23%;
+          flex: 0 0 23%;
+  padding-right: 2%;
+  position: relative;
+}
+
+.section .wrap .block:last-child {
+  padding-right: 0;
+}
+
+.section .wrap .block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+.section .wrap .block-1::before {
+  width: 74px;
+  height: 85px;
+  background: url(../images/about/icon-1.png) center no-repeat;
+}
+
+.section .wrap .block-2::before {
+  height: 85px;
+  width: 85px;
+  background: url(../images/about/icon-2.png) center no-repeat;
+}
+
+.section .wrap .block-3::before {
+  width: 86px;
+  height: 85px;
+  background: url(../images/about/icon-3.png) center no-repeat;
+}
+
+.section .wrap .block-4::before {
+  width: 86px;
+  height: 85px;
+  background: url(../images/about/icon-4.png) center no-repeat;
+}
+
+.people {
+  padding: 90px 0 112px 0;
+  background: #f4f5f7;
+}
+
+.people .people__subtitle {
+  font-size: 20px;
+}
+
+.people .people__title {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 65px;
+}
+
+.people .people__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.people .people__row img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30.333%;
+          flex: 0 0 30.333%;
+  margin-bottom: 36px;
+}
+
+.footer {
+  background: #32325f;
+  padding: 78px 0 104px 0;
+}
+
+.footer .footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__row .footer__block {
+  color: #ffffff;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+}
+
+.footer .footer__row .footer__block h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.footer .footer__row .footer__block p {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.footer .footer__row .footer__block p a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}

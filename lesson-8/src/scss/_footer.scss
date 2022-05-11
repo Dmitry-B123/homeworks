@@ -1,0 +1,27 @@
+.footer {
+   background: $bg_color-2;
+   padding: 78px 0 104px 0;
+   .footer__row {
+      display: flex;
+      justify-content: space-between;
+      .footer__block {
+         color: #ffffff;
+         flex: 0 0 33.333%;
+         h4 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 35px;
+         }
+
+         p {
+            font-weight: 700;
+            font-size: 16px;
+            a {
+               text-decoration: none;
+               color: #ffffff;
+               display: block;
+            }
+         }
+      }
+   }
+}

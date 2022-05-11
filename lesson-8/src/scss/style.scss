@@ -1,0 +1,25 @@
+*, *::after, *::before {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Helvetica Neue";
+   color: #32325f;
+}
+
+.container {
+   width: 100%;
+   max-width: 71.25rem;
+   margin: 0 auto;
+}
+
+$bg__color: #f4f5f7;
+$bg_color-2: #32325f;
+
+@import "_header";
+@import "_about";
+@import "_people";
+@import "_footer";
+
+
+
